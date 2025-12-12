@@ -1,9 +1,9 @@
-# 🩺 Breast Cancer Diagnosis Prediction  
+#  Breast Cancer Diagnosis Prediction  
 ### Using K-Nearest Neighbors (KNN) & K-Means Clustering
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 The goal of this project is to **classify breast cancer diagnosis** as either **Malignant (M)** or **Benign (B)** using:
 
 1. **K-Means Clustering** → Unsupervised learning to group tumors into 2 clusters and observe natural patterns.  
@@ -14,7 +14,7 @@ All preprocessing, scaling, and model evaluation are performed in **Google Colab
 
 ---
 
-## 🧹 Data Preprocessing Steps
+##  Data Preprocessing Steps
 1. Removed unnecessary columns: `id` and `Unnamed:32`  
 2. Encoded diagnosis column: **M → 1**, **B → 0**  
 3. Applied **Min-Max Normalization** to all numeric features  
@@ -24,21 +24,21 @@ All preprocessing, scaling, and model evaluation are performed in **Google Colab
 
 ---
 
-## 🔍 Model 1: K-Means Clustering
+##  Model 1: K-Means Clustering
 - Applied **k = 2** to group the data  
 - Compared clusters with actual diagnosis  
 - Observed distribution of malignant and benign cases  
 
 ---
 
-## 🤖 Model 2: KNN Classifier
+## Model 2: KNN Classifier
 - Trained using **k = 5** on normalized training data  
 - Tested on unseen data  
 - Evaluated using: **Accuracy, Precision, Recall, F1-score**  
 
 ---
 
-## 📊 Model Evaluation Results
+##  Model Evaluation Results
 
 | Metric     | Value |
 |-----------|--------|
@@ -51,14 +51,14 @@ All preprocessing, scaling, and model evaluation are performed in **Google Colab
 
 ---
 
-## 📁 Files in Repository
+##  Files in Repository
 - `Breast_Cancer_KNN_KMeans.ipynb` → Full Colab notebook (preprocessing, model training, evaluation)  
 - `Dataset.csv` → Dataset used for modeling  
 - `README.md` → Project documentation  
 
 ---
 
-## ▶️ How to Run
+## How to Run
 1. Open the `.ipynb` notebook in **Google Colab**  
 2. Upload `Dataset.csv` in the same session  
 3. Run all cells sequentially  
@@ -71,7 +71,7 @@ All preprocessing, scaling, and model evaluation are performed in **Google Colab
 
 ---
 
-## ✔️ Summary
+## Summary
 This project demonstrates that with proper **preprocessing + clustering + classification**, breast cancer diagnosis can be predicted accurately.  
 The KNN classifier performs well when the data is cleaned and normalized.
 -
